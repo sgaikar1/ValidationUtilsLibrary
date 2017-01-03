@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.appnirman.sampleapp.MainActivity">
+
+    <ScrollView
+        android:layout_above="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/tv_fname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="first name"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/tv_lname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="last name"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/tv_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"/>
+
+            <EditText
+                android:id="@+id/tv_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="Password"
+                android:inputType="textPassword"/>
+
+            <EditText
+                android:id="@+id/tv_cpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"/>
+
+            <EditText
+                android:id="@+id/tv_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="Age"
+                android:inputType="number"
+                android:maxLength="3"/>
+
+            <EditText
+                android:id="@+id/tv_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="Mobile no"
+                android:inputType="phone"
+                android:maxLength="10"/>
+
+            <EditText
+                android:id="@+id/tv_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="Address"
+                android:inputType="textMultiLine"/>
+
+            <EditText
+                android:id="@+id/tv_pin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="Pincode"
+                android:inputType="number"
+                android:maxLength="6"/>
+
+            <EditText
+                android:id="@+id/tv_any"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="Any String" />
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Submit"/>
+</RelativeLayout>
