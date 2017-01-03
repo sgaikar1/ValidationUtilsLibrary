@@ -15,6 +15,10 @@ currently it works on follow entities:
 * pincode: maximum  6 digits allowed,
 * any string: if edit text is empty it will throw error.
 
+##Preview
+![gif](https://github.com/sgaikar1/ValidationUtilsLibrary/blob/master/screen/ezgif.com-resize%20(1).gif)
+
+
 
 ### Installation
 
